@@ -43,6 +43,7 @@ againBtn.addEventListener('click', function() {
     correctNum.textContent = "?";
     msgField.textContent = "Start guessing...";
     randomNum = Math.floor(Math.random() * 20) + 1;
+    bgColor.style.backgroundColor = 'black';
     currScore.textContent = 0;
     highScore.textContent = 20;
 })
